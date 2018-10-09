@@ -1,0 +1,33 @@
+body {
+    border: 20px solid #808080;
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 700px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    color: #025d6b;
+}
+
+#article-1,
+#article-2 {
+    padding: 20px
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#article-heading-1,
+#article-heading-2 {
+    font-weight: 800;
+}
+
+.highlight {
+    border-left: 5px solid #ada8a8;
+    padding: 5px;
+}
